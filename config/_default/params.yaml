@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "方建"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "产业研究 · 投资分析 · AI 应用"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "方建的个人主页：上海财经大学产业经济学硕士，专注产业研究、投资分析与 AI 应用。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -91,7 +90,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: true
-    language_switcher: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -100,12 +99,12 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
-  # Site footer
+  # Site footer and navigation bar
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -115,7 +114,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}"
     license:
       type: cc # cc | custom
       allow_derivatives: false
@@ -169,7 +168,7 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
-  # Site search
+  # Site search and discovery
   # ────────────────────────────────────────────────────────────────────────────
   search:
     enable: true
@@ -276,7 +275,7 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # PREMIUM
-  # Premium features and creator program (affiliates)
+  # Premium features and creator program
   # ────────────────────────────────────────────────────────────────────────────
   pro:
     # Hide "Powered by HugoBlox" attribution
@@ -286,5 +285,4 @@ hugoblox:
     hide_attribution: false
 
     # Affiliate referral code for rewards program
-    # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
