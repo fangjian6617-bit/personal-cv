@@ -1,4 +1,6 @@
 ---
-title: Blog
-view: article-grid
+title: ''
+draft: true
+cascade:
+  draft: true
 ---
