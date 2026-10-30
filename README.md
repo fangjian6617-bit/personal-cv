@@ -2,6 +2,8 @@
 
 使用 HugoBlox Academic CV 模板制作的个人网站，内容来自方建的求职简历。
 
+在线地址：https://fangjian6617-bit.github.io/personal-cv/
+
 ## 内容
 
 - 个人简介、教育背景与关注方向
